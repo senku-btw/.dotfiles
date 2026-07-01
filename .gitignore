@@ -7,3 +7,39 @@ result-*
 
 # Ignore NixOS interactive test driver history
 **/.nixos-test-history
+
+# ==========================================
+# Core Exclusions (Your requested overrides)
+# ==========================================
+README.md
+LICENSE
+
+# ==========================================
+# System & OS Clutter
+# ==========================================
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Credentials & Security (NEVER TRACK THESE)
+# ==========================================
+*.pem
+*.key
+*.id_rsa
+*.id_ed25519
+.env
+.env.*
+private/
+secrets/
+
+# ==========================================
+# Caches, Logs, and Runtime Data
+# ==========================================
+*.log
+.cache/
+.npm/
+.zsh_history
+.bash_history
+.lesshst
