@@ -4,17 +4,14 @@ A carefully maintained collection of personal configuration files designed to pr
 
 ## Contents
 
-- Shell (`zsh` / `bash`)
-- Git
-- Neovim
+- git
 - tmux
-- Terminal
-- Scripts
+- foot
 
 ## Installation
 
 ```bash
-git clone https://github.com/<username>/dotfiles.git ~/.dotfiles
+git clone https://github.com/senku-btw/dotfiles.git ~/.dotfiles
 ```
 
 ---
