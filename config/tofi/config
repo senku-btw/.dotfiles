@@ -1,0 +1,41 @@
+# =====================================================================
+# TOFI CONFIGURATION: HIGH-SPEED DMENU STYLE
+# =====================================================================
+
+### Behavior & Performance Options ###
+# Limit visible results to 3 to minimize rendering overhead
+num-results = 3
+
+# Launch the application instantly the moment only one match remains
+auto-accept-single = true
+
+# Disable the "run:" prefix entirely; text displays exactly as you type
+prompt-text = ""
+
+### Placement & Geometry ###
+anchor = top
+width = 100%
+height = 30
+horizontal = true
+
+### Layout & Spacing ###
+border-width = 0
+outline-width = 0
+padding-top = 4
+padding-bottom = 4
+padding-left = 10
+result-spacing = 20
+
+### Font ###
+font = monospace
+font-size = 12
+
+### Colors (RGBA Format) ###
+background-color = #222222FF
+text-color = #BBBBBBFF
+prompt-color = #BBBBBBFF
+
+# Selection Highlight (Active item)
+selection-color = #EEEEEEFF
+selection-background = #005577FF
+selection-background-padding = 4, 4
