@@ -2,6 +2,8 @@
 
 > *“Simplicity is the ultimate sophistication.” — Leonardo da Vinci*
 
+<br>
+
 A refined, minimalist environment tailored for speed, focus, and modern development. 
 
 This repository houses my personal configurations, organized cleanly under the **XDG Base Directory Specification**.
