@@ -1,0 +1,14 @@
+# Force Wayland native backend rendering immediately
+backend wayland
+
+# Strips input events you don't use to save polling latency
+no-cursor
+no-touch
+
+# Execution and matching speedups
+ignorecase
+wrap
+
+# Layout optimizations (Keeps it flat, fast, and stable)
+fixed-height
+no-spacing
