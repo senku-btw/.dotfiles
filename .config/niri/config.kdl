@@ -275,6 +275,9 @@ layout {
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
+// This tells UWSM the compositor successfully launched so it can bind the environment variables properly.
+spawn-at-startup "uwsm" "finalize"
+
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
     // skip-at-startup
